@@ -140,15 +140,15 @@ uv run python examples/01_getting_started/01_hello_grok.py
 
 Real-world applications leveraging xAI's unique X (Twitter) Search capability.
 
-| Example                                                                                         | Description                |
-| ----------------------------------------------------------------------------------------------- | -------------------------- |
-| [01_stock_sentiment.py](examples/17_x_search_use_cases/01_stock_sentiment.py)                   | Stock/crypto sentiment     |
-| [02_brand_monitoring.py](examples/17_x_search_use_cases/02_brand_monitoring.py)                 | Brand reputation tracking  |
-| [03_trend_detection.py](examples/17_x_search_use_cases/03_trend_detection.py)                   | Viral content discovery    |
-| [04_competitive_intelligence.py](examples/17_x_search_use_cases/04_competitive_intelligence.py) | Competitor monitoring      |
-| [05_crisis_monitoring.py](examples/17_x_search_use_cases/05_crisis_monitoring.py)               | Real-time crisis detection |
-| [06_influencer_analytics.py](examples/17_x_search_use_cases/06_influencer_analytics.py)         | KOL tracking and analysis  |
-| [07_event_correlation.py](examples/17_x_search_use_cases/07_event_correlation.py)               | Event impact analysis      |
+| Example                                                                                         | Description                | When to Use                                                     |
+| ----------------------------------------------------------------------------------------------- | -------------------------- | --------------------------------------------------------------- |
+| [01_stock_sentiment.py](examples/17_x_search_use_cases/01_stock_sentiment.py)                   | Stock/crypto sentiment     | Trading signals, market research, portfolio monitoring          |
+| [02_brand_monitoring.py](examples/17_x_search_use_cases/02_brand_monitoring.py)                 | Brand reputation tracking  | Marketing teams, PR monitoring, customer feedback analysis      |
+| [03_trend_detection.py](examples/17_x_search_use_cases/03_trend_detection.py)                   | Viral content discovery    | Content strategy, marketing campaigns, early trend adoption     |
+| [04_competitive_intelligence.py](examples/17_x_search_use_cases/04_competitive_intelligence.py) | Competitor monitoring      | Strategy teams, product launches, market positioning            |
+| [05_crisis_monitoring.py](examples/17_x_search_use_cases/05_crisis_monitoring.py)               | Real-time crisis detection | PR teams, risk management, reputation protection                |
+| [06_influencer_analytics.py](examples/17_x_search_use_cases/06_influencer_analytics.py)         | KOL tracking and analysis  | Influencer marketing, partnership evaluation, campaign ROI      |
+| [07_event_correlation.py](examples/17_x_search_use_cases/07_event_correlation.py)               | Event impact analysis      | News reaction tracking, product launch impact, PR effectiveness |
 
 ### Files API
 
@@ -264,5 +264,9 @@ MIT License - see [LICENSE](LICENSE) for details.
 ---
 
 <div align="center">
+
 Made with ❤️ by <a href="https://github.com/CloudAI-X">CloudAI-X</a>
+
+[![Follow on X](https://img.shields.io/badge/Follow-@cloudxdev-1DA1F2?style=flat&logo=x&logoColor=white)](https://x.com/cloudxdev)
+
 </div>
