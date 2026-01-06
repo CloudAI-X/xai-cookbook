@@ -10,6 +10,9 @@ jobs:
   lint:
     name: Lint & Type Check
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
 
     steps:
       - name: Checkout code
@@ -19,9 +22,10 @@ jobs:
         uses: astral-sh/setup-uv@v4
         with:
           version: "latest"
+          enable-cache: true
 
-      - name: Set up Python
-        run: uv python install 3.11
+      - name: Set up Python ${{ matrix.python-version }}
+        run: uv python install ${{ matrix.python-version }}
 
       - name: Install dependencies
         run: uv sync
@@ -60,6 +64,7 @@ jobs:
         uses: astral-sh/setup-uv@v4
         with:
           version: "latest"
+          enable-cache: true
 
       - name: Set up Python
         run: uv python install 3.11
@@ -69,6 +74,4 @@ jobs:
 
       - name: Check example syntax
         run: |
-          for file in examples/**/*.py; do
-            python -m py_compile "$file"
-          done
+          find examples -name "*.py" -exec python -m py_compile {} \;

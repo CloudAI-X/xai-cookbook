@@ -82,7 +82,7 @@ uv run mypy src/
 
 ### Style Guidelines
 
-- **Line length**: 88 characters (Black default)
+- **Line length**: 100 characters (configured in pyproject.toml)
 - **Imports**: Sorted with isort (handled by ruff)
 - **Docstrings**: Google style for all public functions
 - **Type hints**: Required for function signatures
@@ -153,24 +153,24 @@ if __name__ == "__main__":
 
 Place your example in the appropriate category:
 
-| Category                  | Description              |
-| ------------------------- | ------------------------ |
-| `01_getting_started/`     | Setup and first steps    |
-| `02_chat_completions/`    | Basic chat functionality |
-| `03_streaming/`           | Streaming responses      |
-| `04_system_prompts/`      | System prompt techniques |
-| `05_conversation_mgmt/`   | Multi-turn conversations |
-| `06_function_calling/`    | Tool use and functions   |
-| `07_structured_outputs/`  | JSON and schema outputs  |
-| `08_reasoning/`           | Reasoning models         |
-| `09_live_search/`         | Web search integration   |
-| `10_vision/`              | Image understanding      |
-| `11_image_generation/`    | Creating images          |
-| `12_deferred_generation/` | Async image generation   |
-| `13_utilities/`           | Helper utilities         |
-| `14_projects/`            | Complete projects        |
-| `15_best_practices/`      | Production patterns      |
-| `16_model_showcase/`      | Model comparisons        |
+| Category                 | Description              |
+| ------------------------ | ------------------------ |
+| `01_getting_started/`    | Setup and first steps    |
+| `02_chat_completions/`   | Basic chat functionality |
+| `03_models_showcase/`    | Model comparisons        |
+| `04_vision/`             | Image understanding      |
+| `05_image_generation/`   | Creating images          |
+| `06_function_calling/`   | Tool use and functions   |
+| `07_server_side_tools/`  | Web search, code exec    |
+| `08_structured_outputs/` | JSON and schema outputs  |
+| `09_live_search/`        | Real-time search         |
+| `10_files/`              | File upload and chat     |
+| `11_collections/`        | Knowledge base and RAG   |
+| `12_voice/`              | Voice agent overview     |
+| `13_utilities/`          | Helper utilities         |
+| `14_management_api/`     | API keys and usage       |
+| `15_anthropic_compat/`   | Anthropic API compat     |
+| `16_advanced/`           | Production patterns      |
 
 ## Submitting Changes
 

@@ -21,6 +21,8 @@ repos:
     hooks:
       - id: mypy
         files: ^src/
+        pass_filenames: false
+        args: [src/]
         additional_dependencies:
           - types-requests
 
