@@ -64,3 +64,6 @@ Thumbs.db
 *.log
 output/
 generated_images/
+
+# Claude Code local config
+.claude/
