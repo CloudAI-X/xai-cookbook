@@ -171,6 +171,7 @@ Place your example in the appropriate category:
 | `14_management_api/`     | API keys and usage       |
 | `15_anthropic_compat/`   | Anthropic API compat     |
 | `16_advanced/`           | Production patterns      |
+| `17_x_search_use_cases/` | X Search real-world apps |
 
 ## Submitting Changes
 

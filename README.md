@@ -2,7 +2,7 @@
 
 # xAI Cookbook
 
-**68+ examples for every xAI API feature**
+**75+ examples for every xAI API feature**
 
 [![CI](https://github.com/CloudAI-X/xai-cookbook/actions/workflows/ci.yml/badge.svg)](https://github.com/CloudAI-X/xai-cookbook/actions/workflows/ci.yml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
@@ -135,6 +135,20 @@ uv run python examples/01_getting_started/01_hello_grok.py
 | [01_web_search.py](examples/09_live_search/01_web_search.py)     | Web search       |
 | [02_news_search.py](examples/09_live_search/02_news_search.py)   | News search      |
 | [03_multi_source.py](examples/09_live_search/03_multi_source.py) | Combined sources |
+
+### X Search Use Cases ⭐ NEW
+
+Real-world applications leveraging xAI's unique X (Twitter) Search capability.
+
+| Example                                                                                         | Description                |
+| ----------------------------------------------------------------------------------------------- | -------------------------- |
+| [01_stock_sentiment.py](examples/17_x_search_use_cases/01_stock_sentiment.py)                   | Stock/crypto sentiment     |
+| [02_brand_monitoring.py](examples/17_x_search_use_cases/02_brand_monitoring.py)                 | Brand reputation tracking  |
+| [03_trend_detection.py](examples/17_x_search_use_cases/03_trend_detection.py)                   | Viral content discovery    |
+| [04_competitive_intelligence.py](examples/17_x_search_use_cases/04_competitive_intelligence.py) | Competitor monitoring      |
+| [05_crisis_monitoring.py](examples/17_x_search_use_cases/05_crisis_monitoring.py)               | Real-time crisis detection |
+| [06_influencer_analytics.py](examples/17_x_search_use_cases/06_influencer_analytics.py)         | KOL tracking and analysis  |
+| [07_event_correlation.py](examples/17_x_search_use_cases/07_event_correlation.py)               | Event impact analysis      |
 
 ### Files API
 
