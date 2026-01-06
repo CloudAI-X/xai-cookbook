@@ -1,0 +1,15 @@
+# Default owners for everything in the repo
+* @CloudAI-X/maintainers
+
+# Examples
+/examples/ @CloudAI-X/maintainers
+
+# Client library
+/src/ @CloudAI-X/maintainers
+
+# Documentation
+/docs/ @CloudAI-X/maintainers
+*.md @CloudAI-X/maintainers
+
+# CI/CD
+/.github/ @CloudAI-X/maintainers
